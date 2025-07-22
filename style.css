@@ -1,0 +1,129 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00ffea;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 80%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1em;
+  background-color: #00c9a7;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00b395;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #a2d2ff;
+}
+
+#question {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.option {
+  background: #ffffff11;
+  border: 2px solid transparent;
+  color: #fff;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  background: #00c9a7;
+  color: #fff;
+}
+
+.correct {
+  background-color: #28a745 !important;
+  border-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545 !important;
+  border-color: #dc3545;
+}
+
+.feedback {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #ffe066;
+}
+
+.result {
+  background: #ffe066;
+  color: #1e3c72;
+  font-size: 1.5em;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+#leaderboardList {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+#leaderboardList li {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  color: #fff;
+}

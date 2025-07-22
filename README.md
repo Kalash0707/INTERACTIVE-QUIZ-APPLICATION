@@ -12,7 +12,7 @@
 
 *MENTOR* : NEELA SANTOSH
 
-## PROJECT DESCRIPTION : 
+##PROJECT DESCRIPTION : 
 
 The Interactive Quiz App is a fully functional, web-based application developed using HTML, CSS, and JavaScript. It allows users to participate in a multiple-choice quiz, receive instant feedback, track their score live, and view a dynamic leaderboard at the end. 
 
@@ -32,3 +32,6 @@ It is a great starting point for anyone learning JavaScript or looking to build 
 
 In summary, this project offers a well-rounded combination of learning, functionality, and interactivity, making it both educational and enjoyable. 
  
+##OUTPUT:
+
+<img width="1354" height="516" alt="Image" src="https://github.com/user-attachments/assets/a3f74652-4d6c-4452-b7cf-7648e6ae8bb0" />
